@@ -9,8 +9,21 @@
   text-transform: uppercase;
 }
 
-@media screen and  (max-width: 989px)  {
+
+@media screen and (min-width: 400px) and (max-width: 768px)  {
   .lead__caption{
     margin-left: 24px;
+  }
+}
+
+@media screen and (min-width: 330px) and (max-width: 400px)  {
+  .lead__caption{
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 329px) {
+  .lead__caption{
+    margin-left: 16px;
   }
 }

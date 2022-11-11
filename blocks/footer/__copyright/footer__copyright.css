@@ -6,11 +6,18 @@
   margin: 0;
   padding: 0;
 }
+@media screen and (max-width: 735px) {
+  .footer__copyright {
+    margin-top: 48px;
+    text-align: left;
+  }
+}
+
 
 @media screen  and (max-width: 514px) {
   .footer__copyright {
-  margin-top: 48px;
-  text-align: left;
+    margin-top: 48px;
+    text-align: left;
   }
   
   }

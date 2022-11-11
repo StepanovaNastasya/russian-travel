@@ -6,8 +6,15 @@
   justify-content: space-between;
 }
 
+@media screen and (min-width: 674px) and (max-width: 735px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 673px) {
 .footer {
+  margin: 64px auto 24px;
   display:block;
 
 }

@@ -5,12 +5,7 @@
 
 }
 
-@media screen and (max-width: 768px) {
-    .places {
-        width: calc(100% - 2*24px);
-        margin: 88px auto 0;
-    }
-}
+
 @media screen and (min-width:1025px) and (max-width: 1193px) {
     .places{
         width: calc(100% - 2*100px);
@@ -18,19 +13,39 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1001px) and (max-width: 1024px) {
     .places{
         width: calc(100% - 2*48px);
         margin: 92px  48px 0 48px;
     }
 }
 
-@media screen and (min-width:768px) and (max-width: 950px) {
+@media screen and (min-width: 951px) and (max-width: 1000px) {
     .places{
-        width: calc(100% - 2*32px);
+        width: calc(100% - 2*40px);
+        margin: 92px  40px 0 40px;
     }
 }
-@media screen and (min-width:320px) and (max-width: 767px) {
+
+@media screen and (min-width:769px) and (max-width: 950px) {
+    .places{
+        width: calc(100% - 2*32px);
+        margin: 92px  32px 0 32px;
+    }
+}
+@media screen and (min-width: 651px) and (max-width: 768px) {
+    .places {
+        width: calc(100% - 2*24px);
+        margin: 88px 24px 0 24px;
+    }
+}
+@media screen and (min-width:450px) and (max-width: 650px) {
+    .places{
+        width: calc(100% - 2*18px);
+        margin: 88px 18px 0 18px;
+    }
+}
+@media screen and (max-width:450px) {
     .places{
        width: 100%;
        margin: 0;

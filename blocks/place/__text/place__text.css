@@ -25,6 +25,6 @@
 
 @media screen and (max-width: 673px) {
     .place__text:first-child {
-      margin: 25px auto 0;
+      margin: 0 auto 0;
     }
 }
