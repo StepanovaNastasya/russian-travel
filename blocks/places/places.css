@@ -33,16 +33,24 @@
         margin: 92px  32px 0 32px;
     }
 }
-@media screen and (min-width: 651px) and (max-width: 768px) {
+
+@media screen and (width: 768px) {
     .places {
         width: calc(100% - 2*24px);
-        margin: 88px 24px 0 24px;
+        margin: 88px 24px 0 24px; 
+    }
+    
+}
+@media screen and (min-width: 651px) and (max-width: 767px) {
+    .places {
+        width: calc(100% - 2*24px);
+        margin: 78px 24px 0 24px;
     }
 }
 @media screen and (min-width:450px) and (max-width: 650px) {
     .places{
         width: calc(100% - 2*18px);
-        margin: 88px 18px 0 18px;
+        margin: 64px 18px 0 18px;
     }
 }
 @media screen and (max-width:450px) {

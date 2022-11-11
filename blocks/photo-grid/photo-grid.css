@@ -52,7 +52,6 @@
 }
 @media screen and (min-width: 700px) and (max-width: 767px) {
     .photo-grid {
-        min-height: 1664px;
         grid-template-columns: repeat(auto-fit, 300px);
         grid-template-rows: repeat(auto-fit,250px);
         justify-content: normal;
