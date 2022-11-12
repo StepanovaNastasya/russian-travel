@@ -26,7 +26,6 @@
     max-width: 320px;
     font-size: 40px;
     left: calc(50% - 320px/2);
-    top: 20%
   }
 
 }
@@ -48,7 +47,7 @@
     height: 70px;
     font-size: 32px;
     line-height: 1.09;
-    left: 16px ;
-    top: 33px ;
+    left: 16px;
+    top: 33px;
   }
 }
