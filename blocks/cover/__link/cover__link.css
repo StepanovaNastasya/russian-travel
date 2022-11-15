@@ -2,45 +2,17 @@
   text-decoration: none;
   color: #FFFFFF;
   max-width: 1184px;
-  min-height: 740px;
+  height: calc((100vw - 96px)*0.625);
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1080px) {
+@media screen and (min-width: 351px) and (max-width: 1080px) {
   .cover__link {
     width: 100%;
-    min-height: 700px;
-  }
-}
-
-@media screen and (min-width: 901px) and (max-width: 1024px) {
-  .cover__link {
-    width: 100%;
-    height: 640px;
-  }
-}
-
-@media screen and (min-width: 775px) and (max-width: 900px) {
-  .cover__link {
-    width: 100%;
-    min-height: 560px;
-  }
-}
-
-@media screen and (min-width: 449px) and (max-width: 774px) {
-  .cover__link {
-    width: 100%;
-    min-height: 480px;
-  }
-}
-
-@media screen and (min-width: 351px) and (max-width: 450px) {
-  .cover__link {
-    width: 100%;
-    min-height: 320px;
+    height: calc(100vw*0.625);
   }
 }
 
