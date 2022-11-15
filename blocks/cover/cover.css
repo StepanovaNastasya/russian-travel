@@ -7,10 +7,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-position: center;
   position:relative;
   z-index: 0;
 }
@@ -32,18 +29,18 @@
 }
 
 
-@media screen and (min-width: 1025px) and (max-width: 1080px) {
+@media screen and (min-width: 1031px) and (max-width: 1080px) {
   .cover {
     width: 100%;
-    min-height: 700px;
+    height: 60%;
     margin: 92px 0 0;
   }
 }
 
-@media screen and (min-width: 901px) and (max-width: 1024px) {
+@media screen and (min-width: 901px) and (max-width: 1030px) {
   .cover {
     width: 100%;
-    height: 640px;
+    height: 60%;
     margin: 92px 0 0;
   }
 }
@@ -51,7 +48,7 @@
 @media screen and (min-width: 775px) and (max-width: 900px) {
   .cover {
     width: 100%;
-    min-height: 560px;
+    height: 60%;
     margin: 91px 0 0;
   }
 }
@@ -59,7 +56,7 @@
 @media screen and (min-width: 449px) and (max-width: 774px) {
   .cover {
     width: 100%;
-    min-height: 480px;
+    height: 60%;
     margin: 90px 0 0;
   }
 }
@@ -67,7 +64,7 @@
 @media screen and (min-width: 351px) and (max-width: 450px) {
   .cover {
     width: 100%;
-    min-height: 320px;
+    max-height: 320px;
     margin: 76px 0 0;
   }
 }
@@ -75,7 +72,7 @@
 @media screen and (max-width: 350px) {
   .cover {
     width: 100%;
-    min-height: 200px;
+    max-height: 200px;
     margin: 66px 0 0;
   }
 }

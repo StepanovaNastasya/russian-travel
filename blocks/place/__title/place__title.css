@@ -4,11 +4,6 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
-  align-self: end;
-}
-
-.place__title:first-child {
-  margin-top: 92px;
 }
 
 
@@ -26,32 +21,19 @@
 }
 @media screen and (min-width: 721px) and (max-width: 758px){
   .place__title{
-    margin-top: 72px;
     font-size: 42px;
     line-height: 1.1;
   }
-
-  .place__title:first-child {
-      margin-top: 88px;
-    }  
   }
 @media screen and (min-width: 450px) and (max-width: 720px) {
   .place__title {
-    margin-top: 72px;
     font-size: 35px;
   }
-  .place__title:first-child {
-    margin-top: 88px;
-  } 
 }
 @media screen and (max-width: 449px) {
   .place__title {
-    margin-top: 50px;
     margin-left: 16px;
     font-size: 32px;
     margin-bottom: 32px;
   }
-  .place__title:first-child {
-    margin-top: 64px;
-  } 
 }

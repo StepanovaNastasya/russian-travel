@@ -7,24 +7,24 @@
 @media screen and (min-width: 351px) and (max-width: 449px) {
   .photo-grid__image {
     margin: 12px 0 0;
-      display:block;
-      width: 320px;
-      height: 240px;
+    display:block;
+    width: 320px;
+    height: 240px;
     }   
       
-  .photo-grid:first-child {
+  .photo-grid__image:first-of-type {
       margin: 0;
   }
 }
 @media screen and (min-width: 326px) and (max-width: 350px) {
   .photo-grid__image {
     margin: 12px 0 0;
-      display:block;
-      width: 305px;
-      height: 228px;
+    display:block;
+    width: 305px;
+    height: 228px;
     }   
       
-  .photo-grid:first-child {
+  .photo-grid__image:first-of-type {
       margin: 0;
   }
 }
@@ -32,12 +32,11 @@
 @media screen and (max-width: 325px) {
   .photo-grid__image {
     margin: 12px 0 0;
-      display:block;
-      width: 288px;
-      height: 216px;
+    width: 288px;
+    height: 216px;
   }
 
-  .photo-grid:first-child {
+  .photo-grid__image:first-of-type {
       margin: 0;
   }
 }
