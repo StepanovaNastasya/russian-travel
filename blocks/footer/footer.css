@@ -2,8 +2,15 @@
   margin: 92px auto 24px;
   width: 90%;
   padding: 0;
-  display:flex;
+  display: flex;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 736px) and (max-width: 780px) {
+  .footer {
+    margin: 88px 24px 24px;
+    width: 93%;
+  }
 }
 
 @media screen and (min-width: 674px) and (max-width: 735px) {
@@ -13,10 +20,8 @@
 }
 
 @media screen and (max-width: 673px) {
-.footer {
-  margin: 64px auto 24px;
-  display:block;
-
-}
-
+  .footer {
+    margin: 64px 0 24px 16px;
+    display: block;
+  }
 }

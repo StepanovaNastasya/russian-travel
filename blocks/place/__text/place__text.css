@@ -1,31 +1,31 @@
 .place__text {
-    margin:26px 0 0;
-    padding: 0;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.63;
+  margin: 26px 0 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.63;
 }
 
 .place__text:first-child {
-    margin-top: 0;
+  margin-top: 0;
 }
 
-@media screen and (min-width: 769px) and (max-width: 850px){
-    .place__text {
-      font-size: 17px;
-    }
+@media screen and (min-width: 769px) and (max-width: 850px) {
+  .place__text {
+    font-size: 17px;
+  }
 }
 
-@media screen and (min-width: 450px) and (max-width: 768px){
-    .place__text {
-      font-size: 16px;
-      margin:25px 0 0;
-    }
+@media screen and (min-width: 450px) and (max-width: 768px) {
+  .place__text {
+    font-size: 16px;
+    margin: 25px 0 0;
+  }
 }
 
 @media screen and (max-width: 449px) {
-    .place__text {
-      font-size: 16px;
-      margin: 25px 16px 0;
-    }
+  .place__text {
+    font-size: 16px;
+    margin: 25px 0 0;
   }
+}

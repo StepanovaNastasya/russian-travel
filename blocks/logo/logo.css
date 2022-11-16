@@ -10,9 +10,9 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 418px){
-    .logo {
-      max-width: 162px;
-      height: 42px;
-    }
+@media screen and (min-width: 321px) and (max-width: 418px) {
+  .logo {
+    max-width: 162px;
+    height: 42px;
+  }
 }

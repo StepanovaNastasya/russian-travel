@@ -1,8 +1,8 @@
 .header__link {
-  align-self: flex-end;
-  margin:0;
-  padding:0;
-  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  padding-top: 18px;
+  color: #ffffff;
   margin-right: 18px;
   font-size: 24px;
   font-weight: 400;
@@ -16,18 +16,18 @@
 
 .header__link:hover {
   opacity: 0.8;
-  transition: 3s;
+  transition: 1s;
 }
 
 @media screen and (max-width: 320px) {
-    .lang-link{ 
-      font-size: 18px;
-      line-height: 1.11;
-    }
+  .header__link {
+    font-size: 18px;
+    line-height: 1.11;
   }
-  
-@media screen and (min-width: 321px) and (max-width: 418px){
-    .lang-link{
-      font-size: 22px;
-    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 418px) {
+  .header__link {
+    font-size: 22px;
+  }
 }
