@@ -47,7 +47,7 @@
 @media screen and (max-width: 350px) {
   .cover {
     width: 100%;
-    height: calc(100vw * 0.625); 
+    height: calc(100vw * 0.625);
     margin: 66px 0 0;
   }
 }
