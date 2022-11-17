@@ -9,6 +9,12 @@
   align-items: center;
 }
 
+@media  screen and (min-width: 1280px) {
+  .cover__link {
+    max-height: 740px;
+  }
+}
+
 @media screen and (min-width: 351px) and (max-width: 1080px) {
   .cover__link {
     width: 100%;

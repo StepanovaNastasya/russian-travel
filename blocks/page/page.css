@@ -13,3 +13,9 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
 }
+
+@media screen and (min-width: 1280px){
+  .page {
+    margin: 0 auto 0;
+  }  
+}

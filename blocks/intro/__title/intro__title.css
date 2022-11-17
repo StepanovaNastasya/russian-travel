@@ -19,26 +19,27 @@
 
 @media screen and (min-width: 321px) and (max-width: 450px) {
   .intro__title {
-    margin: 64px 16px 40px;
+    margin: 64px 0 40px 16px;
     font-size: 38px;
+    width: calc(100vw - 16px);
   }
 }
 @media screen and (min-width: 451px) and (max-width: 742px) {
   .intro__title {
-    margin: 76px 26px 40px;
-    max-width: 400px;
+    margin: 76px 0 40px 26px;
+    width: calc(100vw - 26px);
   }
 }
 @media screen and (min-width: 720px) and (max-width: 768px) {
   .intro__title {
-    margin: 88px 24px 40px;
-    max-width: 720px;
+    margin: 88px 0 40px 24px;
+    width: calc(100vw - 24px);
   }
 }
 @media screen and (min-width: 769px) and (max-width: 900px) {
   .intro__title {
     margin: 90px 0 40px 32px;
-    max-width: 705px;
+    width: calc(100vw - 32px);
   }
 }
 @media screen and (min-width: 901px) and (max-width: 1025px) {
