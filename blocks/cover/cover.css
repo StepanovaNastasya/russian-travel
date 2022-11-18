@@ -1,6 +1,6 @@
 .cover {
   max-width: 1184px;
-  max-height: 740px;
+  min-height: 740px;
   margin: 92px auto 0;
   padding: 0;
   background-image: url("../../images/photo_railway.jpg");
@@ -31,15 +31,15 @@
 @media screen and (min-width: 449px) and (max-width: 1080px) {
   .cover {
     width: 100%;
-    height: calc(100vw * 0.625);
+    min-height: calc(100vw * 0.625);
     margin: 90px 0 0;
   }
 }
 
-@media screen and (min-width: 351px) and (max-width: 450px) {
+@media screen and (min-width: 351px) and (max-width: 448px) {
   .cover {
     width: 100%;
-    height: calc(100vw * 0.625);
+    min-height: calc(100vw * 0.625);
     margin: 76px 0 0;
   }
 }
@@ -47,7 +47,7 @@
 @media screen and (max-width: 350px) {
   .cover {
     width: 100%;
-    height: calc(100vw * 0.625);
+    min-height: calc(100vw * 0.625);
     margin: 66px 0 0;
   }
 }

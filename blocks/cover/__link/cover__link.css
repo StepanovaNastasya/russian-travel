@@ -2,23 +2,17 @@
   text-decoration: none;
   color: #ffffff;
   max-width: 1184px;
-  height: calc((100vw - 96px) * 0.625);
+  min-height: 740px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-@media  screen and (min-width: 1280px) {
-  .cover__link {
-    max-height: 740px;
-  }
-}
-
 @media screen and (min-width: 351px) and (max-width: 1080px) {
   .cover__link {
     width: 100%;
-    height: calc(100vw * 0.625);
+    min-height: calc(100vw * 0.625);
   }
 }
 
